@@ -18,7 +18,7 @@ if [ "$1" == "--create" ];then
     # création des conteneurs
     echo "Création : ${nbserv} conteneurs..."
     # détermination de l'id mini
-    id_first=$(docker ps -a --format "{{ .Names }}" |grep "oki-vmparc" | sed s/".*-vmparc"//g  | sort -nr | head -1)
+    id_first=$(docker ps -a --format "{{ .Names }}" |grep "pepiloto-vmparc" | sed s/".*-vmparc"//g  | sort -nr | head -1)
     id_min=$(($id_first+1))
     # détermination de l'id max
     id_max=$(($nbserv + $id_min - 1))

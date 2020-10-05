@@ -18,3 +18,5 @@ To destroy the containers:
 ```
 multi_deploy.sh --drop
 ```
+
+Thanks to xavki for the base of this script, his youtube channel : [xavki](https://www.youtube.com/channel/UCs_AZuYXi6NA9tkdbhjItHQ)
